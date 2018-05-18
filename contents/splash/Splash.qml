@@ -34,7 +34,7 @@ Rectangle {
             id: units
             text: "_"
             property int gridUnit: boundingRect.height
-            property real scaleUnit: 2
+            property real scaleUnit: 1
         }
 
         Image {
@@ -50,8 +50,8 @@ Rectangle {
             y: (parent.height)/2 - units.gridUnit*14 - units. scaleUnit*30
             anchors.horizontalCenter: parent.horizontalCenter
             source: "spinner.svgz"
-            sourceSize.height: units.gridUnit * 4 * units.scaleUnit
-            sourceSize.width: units.gridUnit * 4 * units.scaleUnit
+            sourceSize.height: units.gridUnit * 6 * units.scaleUnit
+            sourceSize.width: units.gridUnit * 6 * units.scaleUnit
 
             RotationAnimator on rotation {
                 id: rotation
@@ -68,7 +68,7 @@ Rectangle {
               anchors {
               bottom: parent.bottom
               }
-              property real size: units.gridUnit * 20 * units.scaleUnit
+              property real size: units.gridUnit * 50 * units.scaleUnit
               anchors.horizontalCenter: parent.horizontalCenter
               source: "megumin.png"
               sourceSize.width: size
