@@ -2,7 +2,7 @@
 /* ---------------------------------------------------------
     Megumin Splash for Plasma made by trueleo
     i made it such that you can easily scale logo, image and
-    spinner at once by changing scaleUnit on line 55 (default 2)
+    spinner at once by changing scaleUnit on line 37 (default 2)
     scaleUnit can accept float/real number as value :D
     ---------------------------------------------------------
 */
